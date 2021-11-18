@@ -1,0 +1,7 @@
+a = int(input('Введите число: '))
+def print_till_zero(n):
+ печать (n)
+ если n == 2:
+ возврат n-1 
+ возврат(print_till_zero(n - 1))
+печать(print_till_zero(а))
