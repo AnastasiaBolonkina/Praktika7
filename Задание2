@@ -1,0 +1,8 @@
+l = str(input('Строка: '))
+def is_palindrome(ы):
+    s = s.lower()
+    s = s.replace(' ','')
+ если len(s) <= 1:
+ вернуть значение True
+ возврат s[0] == s[-1] и is_palindrome(s[1:-1])
+печать (is_palindrome (л))
